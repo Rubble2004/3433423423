@@ -1,0 +1,23 @@
+﻿<Page x:Class="Rule.Pages.adminik"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Rule.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="adminik">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock FontSize="25" HorizontalAlignment="Center"> Каталог товаров</TextBlock>
+            <TextBlock>Типо товар x24</TextBlock>
+            <TextBlock>Типо товар x23</TextBlock>
+            <TextBlock>Типо товар x54</TextBlock>
+            <TextBlock>Типо товар x12</TextBlock>
+            <TextBlock>Типо товар x12</TextBlock>
+            <Button Click="Mnogo" Width="200">Добавить товар</Button>
+            <Button Click="Malo" Width="200">Убрать товар</Button>
+        </StackPanel>
+    </Grid>
+</Page>

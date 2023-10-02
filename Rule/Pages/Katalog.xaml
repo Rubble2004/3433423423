@@ -1,0 +1,22 @@
+﻿<Page x:Class="Rule.Classes.Katalog"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Rule.Classes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Katalog">
+
+    <Grid>
+        
+        <StackPanel>
+            <TextBlock FontSize="30">Каталог товаров </TextBlock>
+            <TextBlock>Товар 1</TextBlock>
+            <TextBlock>Товар 2</TextBlock>
+            <TextBlock>Товар 3</TextBlock>
+            <TextBlock>Товар 4</TextBlock>
+            <TextBlock>Товар 5</TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
